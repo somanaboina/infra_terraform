@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional inline styles can be added here */
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        #profile-image {
+            max-width: 200px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+            border: 5px solid #007BFF;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        .project, .review {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+
+        .project:hover, .review:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img id="profile-image" src="https://somanaboinastaticwebsite2023.s3.amazonaws.com/profile.png" alt="Profile Image">
+        <h1>Welcome to Kevin's Portfolio</h1>
+        <p>Web Developer</p>
+    </header>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of Project 1</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of Project 2</p>
+        </div>
+        <!-- Add more project divs as needed -->
+    </section>
+    
+    <section id="reviews">
+        <h2>Reviews</h2>
+        <div class="review">
+            <p>"Kevin did an excellent job on my website. I'm thrilled with the results!"</p>
+            <p>- Client A</p>
+        </div>
+        <div class="review">
+            <p>"I highly recommend Kevin's web development services. Top-notch work!"</p>
+            <p>- Client B</p>
+        </div>
+        <!-- Add more review divs as needed -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Kevin's Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
